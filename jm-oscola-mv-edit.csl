@@ -2,9 +2,9 @@
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="en-GB" page-range-format="minimal-two" version="1.1mlz1" year-range-format="minimal-two">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
-    <title>JM OSCOLA - Oxford Standard for Citation of Legal Authorities</title>
+    <title>JM OSCOLA - MV Edits</title>
     <id>http://juris-m.github.io/jm-styles/jm-oscola</id>
-    <link href="http://juris-m.github.io/jm-styles/jm-oscola" rel="self"/>
+    <link href="https://github.com/veale/jm-styles/blob/master/jm-oscola-mv-edit.csl" rel="self"/>
     <link href="http://www.law.ox.ac.uk/publications/oscola.php" rel="documentation"/>
     <author>
       <name>Virgilio Afonso da Silva (University of Sao Paulo); www.law.usp.br/afonso</name>
