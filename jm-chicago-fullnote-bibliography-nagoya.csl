@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1mlz1" demote-non-dropping-particle="never" page-range-format="chicago">
   <info>
-    <title>JM Chicago Manual of Style 16th edition (full note)</title>
-    <id>http://juris-m.github.io/jm-styles/jm-chicago-fullnote-bibliography</id>
-    <link href="http://juris-m.github.io/jm-styles/jm-chicago-fullnote-bibliography" rel="self"/>
+    <title>JM Chicago Manual of Style 16th edition (full note) [Nagoya]</title>
+    <id>http://juris-m.github.io/jm-styles/jm-chicago-fullnote-bibliography-nagoya</id>
+    <link href="http://juris-m.github.io/jm-styles/jm-chicago-fullnote-bibliography-nagoya" rel="self"/>
     <link href="http://www.chicagomanualofstyle.org/tools_citationguide.html" rel="documentation"/>
     <author>
       <name>Julian Onions</name>
@@ -1391,6 +1391,10 @@
     </group>
   </macro>
 
+  <macro name="access-legal">
+    <text variable="URL"/>
+  </macro>
+  
   <macro name="juris-pretitle">
     <text value=""/>
   </macro>
@@ -2006,7 +2010,10 @@
               <condition match="any" type="legal_case legislation bill hearing report regulation"/>
               <condition match="all" variable="jurisdiction"/>
             </conditions>
-            <text macro="jurism"/>
+            <group delimiter=". ">
+              <text macro="jurism"/>
+              <text macro="access-legal"/>
+            </group>
           </if>
           <else-if type="patent">
             <text macro="patent"/>
